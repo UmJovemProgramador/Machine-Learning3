@@ -5,6 +5,11 @@ footer {
     justify-content: flex-end;
     padding: 1rem;
   }
+
+  footer div {
+    text-align: center;
+
+  }
   
   h5 {
     display: block;
@@ -51,6 +56,7 @@ footer {
       gap: 5rem;
       flex-direction: row;
       margin-top: 3rem;
+      
     }
   
     .rodape2 {
@@ -77,6 +83,7 @@ footer {
       justify-content: space-between;
       gap: 10rem;
       margin-top: 3rem;
+      
     }
   
     .rodape2 {
