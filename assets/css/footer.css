@@ -6,6 +6,10 @@ footer {
     padding: 1rem;
   }
 
+.rodapeGeral {
+  text-align: center;
+}
+
   footer div {
     text-align: center;
 
@@ -30,9 +34,12 @@ footer {
   
   @media only screen and (max-width: 576px) {
     footer {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
+      justify-content: space-around;
     }
+
+ 
   
     .rodape,
     .rodape2 {
@@ -46,15 +53,16 @@ footer {
   
   @media only screen and (min-width: 576px) and (max-width: 992px) {
     footer {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
+      justify-content: space-around;
     }
   
     .rodape {
       display: flex;
       justify-content: space-between;
       gap: 5rem;
-      flex-direction: row;
+      flex-direction: column;
       margin-top: 3rem;
       
     }
@@ -63,7 +71,7 @@ footer {
       display: flex;
       justify-content: center;
       gap: 4rem;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       margin-top: 3rem;
@@ -73,8 +81,7 @@ footer {
   
   @media only screen and (min-width: 992px) {
     footer {
-      flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
     }
   
